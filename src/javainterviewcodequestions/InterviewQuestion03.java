@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class InterviewQuestion03 {
 
-	static int number;
-
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
@@ -22,7 +20,7 @@ public class InterviewQuestion03 {
 		System.out.print(fibo1 + " ");
 		System.out.print(fibo2 + " ");
 		
-		for (int i = 1; i <= number-2; i++) {
+		for (int i = 1; i < number-1; i++) {
 			fibonacci = fibo1 + fibo2;
 			fibo1 = fibo2;
 			fibo2 = fibonacci;

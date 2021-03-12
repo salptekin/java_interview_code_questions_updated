@@ -17,6 +17,8 @@ public class InterviewQuestion06 {
 		String str = scan.nextLine().replace(" ","").toLowerCase();
 		
 		isPalindrome(str);
+		
+		scan.close();
 	}
 	
 	public static void isPalindrome(String str) {

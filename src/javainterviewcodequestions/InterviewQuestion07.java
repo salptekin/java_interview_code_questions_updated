@@ -31,6 +31,8 @@ public class InterviewQuestion07 {
 		}else {
 			System.out.println(temp + " is not Armstrong number");
 		}
+		
+		scan.close();
 
 	}
 

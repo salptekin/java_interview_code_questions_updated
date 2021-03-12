@@ -34,6 +34,8 @@ public class InterviewQuestion08 {
 		Set<String> listSet = new HashSet<>(list);
 		
 		System.out.println(listSet);
+		
+		scan.close();
 
 	}
 

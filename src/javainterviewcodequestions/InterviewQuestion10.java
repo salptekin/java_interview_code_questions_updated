@@ -32,9 +32,7 @@ public class InterviewQuestion10 {
 			
 			if(numOfWords.containsKey(w)) {
 				
-				int count = numOfWords.get(w);
-				
-				numOfWords.put(w, count+1);
+				numOfWords.put(w, numOfWords.get(w)+1);
 				
 			}else {
 				
